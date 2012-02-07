@@ -11,11 +11,17 @@ class One60by2 < SmsProvider
  
   def send
   end
+
   
   
   private
+
+  ## Some Provide require Cookie for login that why make a trip to the base domain to get cookie
+  def make_a_trip
+  end
   
   def header
+    
   end
    
 end

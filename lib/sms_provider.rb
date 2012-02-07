@@ -17,6 +17,7 @@ class SmsProvider
   end
 end
 
+
 autoload :Way2Sms , "/way2sms.rb"
 autoload :One60by2, "/one60by2.rb"
 autoload :FullOnSms , "/fullonsms.rb"
